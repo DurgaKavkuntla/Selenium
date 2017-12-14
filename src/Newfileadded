@@ -1,0 +1,17 @@
+Public class Login{
+
+private static final Login login;
+private Login(){
+
+login= new Login();
+}
+
+public Login static getInstance(){
+if(login=null){
+return login;
+
+}
+else
+System.out.println("object is already created");
+
+}
